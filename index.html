@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <style>
+        body {
+            background-color: #ffe6f2;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h1 {
+            color: #ff4d6d;
+        }
+        .heart {
+            font-size: 50px;
+            color: red;
+        }
+        .buttons {
+            margin-top: 30px;
+        }
+        button {
+            background-color: #ff4d6d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        button:hover {
+            background-color: #ff1a4d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Will You Be My Valentine? <span class="heart">❤️</span></h1>
+        <img src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" alt="Cute Valentine GIF">
+        <div class="buttons">
+            <button onclick="yes()">Yes!</button>
+            <button onclick="no()">No 😢</button>
+        </div>
+    </div>
+
+    <script>
+        function yes() {
+            alert("Yay! I can't wait to spend Valentine's Day with you! 💖");
+        }
+
+        function no() {
+            alert("Oh no... 💔 But I still think you're amazing!");
+        }
+    </script>
+</body>
+</html>
